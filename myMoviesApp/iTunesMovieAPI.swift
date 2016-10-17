@@ -25,13 +25,47 @@ class ITunesMovieAPI {
                 
                 let feed = json["feed"] as! NSDictionary
                 let entry = feed["entry"] as! NSArray
+                
+                var movies: [Movie] = []
+                
                 let movieId = entry[0] as! NSDictionary
-                print(movieId)
                 let name = movieId["im:name"] as! NSDictionary
-                print(name)
+                
+                //Gets Artist of the movie
+                let artist = movieId["im:artist"] as! NSDictionary
+                
+                //Gets Release date of movie
+                let releaseDateFolder = movieId["im:releaseDate"] as! NSDictionary
+                let attributesRDF = releaseDateFolder["attributes"] as! NSDictionary
+                let releaseDate = attributesRDF["label"] as! NSString
+                print(releaseDate)
+                
+                //Gets Title of movie
                 let title = name["label"] as! NSString
-                print(title)
-                }
+                
+                //Gets Category of movie
+                let categoryFolder = movieId["category"] as! NSDictionary
+                let attributesCF = categoryFolder["attributes"] as! NSDictionary
+                let category = attributesCF["label"] as! NSString
+                print(category)
+                
+                //Gets Duration of movie
+                let linkFolder = movieId["link"] as! NSArray
+                let linkIndex = linkFolder[1] as! NSDictionary
+                let durationFolder = linkIndex["im:duration"] as! NSDictionary
+                let duration = durationFolder["label"] as! NSString
+                print(duration)
+                
+                //Gets Image of movie
+                let imageFolder = movieId["im:image"] as! NSArray
+                let imageIndex = imageFolder[2] as! NSDictionary
+                let image = imageIndex["label"] as! NSString
+                print(image)
+                
+            }
+            
+            
+
             }
         
         task.resume()
