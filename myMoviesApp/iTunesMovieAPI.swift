@@ -26,9 +26,11 @@ class ITunesMovieAPI {
                 let feed = json["feed"] as! NSDictionary
                 let entry = feed["entry"] as! NSArray
                 let movieId = entry[0] as! NSDictionary
+                print(movieId)
                 let name = movieId["im:name"] as! NSDictionary
+                print(name)
                 let title = name["label"] as! NSString
-
+                print(title)
                 }
             }
         

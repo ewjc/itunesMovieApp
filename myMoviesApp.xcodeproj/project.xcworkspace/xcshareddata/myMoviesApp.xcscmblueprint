@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4DEC5027481B64AF6873B21CFA6F9FDD10221277",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6F6AE9D97985979DE27A34E0C2804228753A17A8" : 9223372036854775807,
+    "4DEC5027481B64AF6873B21CFA6F9FDD10221277" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F35A3E59-F708-4FFA-8608-42934032AC49",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6F6AE9D97985979DE27A34E0C2804228753A17A8" : "myMoviesApp\/myMoviesApp\/",
+    "4DEC5027481B64AF6873B21CFA6F9FDD10221277" : "myMoviesApp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "myMoviesApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "myMoviesApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ewjc\/itunesMovie.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4DEC5027481B64AF6873B21CFA6F9FDD10221277"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ewjc\/itunesMovie.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6F6AE9D97985979DE27A34E0C2804228753A17A8"
+    }
+  ]
+}
