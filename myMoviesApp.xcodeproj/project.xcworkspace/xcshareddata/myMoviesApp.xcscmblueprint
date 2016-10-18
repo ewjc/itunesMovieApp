@@ -10,7 +10,7 @@
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F35A3E59-F708-4FFA-8608-42934032AC49",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "6F6AE9D97985979DE27A34E0C2804228753A17A8" : "myMoviesApp\/myMoviesApp\/",
-    "4DEC5027481B64AF6873B21CFA6F9FDD10221277" : "myMoviesApp\/"
+    "4DEC5027481B64AF6873B21CFA6F9FDD10221277" : "itunesMovieApp\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "myMoviesApp",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
