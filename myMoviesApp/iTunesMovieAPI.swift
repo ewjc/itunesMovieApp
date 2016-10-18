@@ -20,7 +20,8 @@ class ITunesMovieAPI {
             
             
             if let data = data {
-            
+                print("Hello Eric")
+                
                 let json = try! JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.mutableContainers) as! NSDictionary
                 
                 let feed = json["feed"] as! NSDictionary
