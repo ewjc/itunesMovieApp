@@ -29,13 +29,6 @@ class DetailedViewController: UIViewController {
     @IBAction func ratingChaned(_ sender: AnyObject) {
     }
     
-    
-    if let url = NSURL(string: movie.movieImage) {
-        if let data = NSData(contentsOfURL: url) {
-            imageURL.image = UIImage(data: data)
-        }
-    }
-    
     var movie: Movie?
 
     override func viewDidLoad() {
@@ -49,11 +42,22 @@ class DetailedViewController: UIViewController {
             movieTitle.text? = movie.movieTitle
             movieArtist.text? = movie.movieArtist
             movieGenre.text? = movie.movieGenre
-//            imageOfMovie.text? = movie.movieImage
             releaseOfMovie.text? = movie.movieReleased
             priceOfMovie.text? = movie.moviePrice
             durationOfMovie.text? = movie.duration
             
+            
+            let urlString: String = movie.movieImage
+            let session = URLSession.shared
+            let url = URL(string: urlString)
+            
+            let dataTask = session.dataTask(with: url!, completionHandler: { (data: Data?, URLResponse: URLResponse?, error: Error?) in
+                if let data = data {
+                    self.imageOfMovie.image = UIImage(data: data)
+                }
+            })
+            
+            dataTask.resume()
             
         }
 

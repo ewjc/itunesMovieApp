@@ -78,4 +78,4 @@ class MoviesTableViewController: UITableViewController, iTunesMovieAPIDelegate {
             
         }
     }
-    
+
