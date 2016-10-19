@@ -13,5 +13,7 @@ struct Movie {
     var movieArtist: String
     var movieGenre: String
     var movieImage: String
-    var duration: Int
+    var duration: String 
+    var movieReleased: String
+    var moviePrice: String
 }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		094F20BD1DB53B2A00AC15EA /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F20BC1DB53B2A00AC15EA /* Movie.swift */; };
+		09AC11A91DB7E8B9005E0867 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AC11A81DB7E8B9005E0867 /* DetailedViewController.swift */; };
 		09F9BE641DB14E7600758029 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F9BE631DB14E7600758029 /* AppDelegate.swift */; };
 		09F9BE691DB14E7600758029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F9BE671DB14E7600758029 /* Main.storyboard */; };
 		09F9BE6B1DB14E7600758029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F9BE6A1DB14E7600758029 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		094F20BC1DB53B2A00AC15EA /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		09AC11A81DB7E8B9005E0867 /* DetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
 		09F9BE601DB14E7600758029 /* myMoviesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myMoviesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F9BE631DB14E7600758029 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09F9BE681DB14E7600758029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				09F9BE771DB14FFB00758029 /* MovieTableViewCell.swift */,
 				09F9BE791DB1504F00758029 /* iTunesMovieAPI.swift */,
 				094F20BC1DB53B2A00AC15EA /* Movie.swift */,
+				09AC11A81DB7E8B9005E0867 /* DetailedViewController.swift */,
 			);
 			path = myMoviesApp;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			files = (
 				09F9BE7A1DB1504F00758029 /* iTunesMovieAPI.swift in Sources */,
 				09F9BE761DB14F8F00758029 /* MoviesTableViewController.swift in Sources */,
+				09AC11A91DB7E8B9005E0867 /* DetailedViewController.swift in Sources */,
 				09F9BE781DB14FFB00758029 /* MovieTableViewCell.swift in Sources */,
 				094F20BD1DB53B2A00AC15EA /* Movie.swift in Sources */,
 				09F9BE641DB14E7600758029 /* AppDelegate.swift in Sources */,
