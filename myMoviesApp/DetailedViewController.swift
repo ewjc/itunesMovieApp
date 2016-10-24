@@ -10,6 +10,8 @@ import UIKit
 
 class DetailedViewController: UIViewController {
     
+    @IBOutlet var starButtons: [UIButton]!
+    
     @IBOutlet weak var movieTitle: UILabel!
     @IBOutlet weak var movieArtist: UILabel!
     @IBOutlet weak var movieGenre: UILabel!
@@ -26,7 +28,42 @@ class DetailedViewController: UIViewController {
     
     @IBAction func addToWatchlistButton(_ sender: AnyObject) {
     }
-    @IBAction func ratingChaned(_ sender: AnyObject) {
+    
+    @IBOutlet weak var markedAsWatchedLabel: UIButton!
+
+    @IBAction func markedAsWatchedButton(_ sender: UIButton) {
+        var ratingDescription = ratingStaticDescription
+        var stars = starButtons
+        
+        if markedAsWatchedLabel.isSelected {
+            ratingDescription?.isHidden = true
+        }
+
+        
+
+        
+
+        
+        
+    }
+    
+    
+    @IBAction func ratingChaned(_ sender: UIButton) {
+        print("clickable")
+        print(sender.tag)
+        //get tag
+        let tag = sender.tag
+        let goldenStar = UIImage(named: "goldstar")
+        let emptyStar = UIImage(named: "emptystar")
+        // loop through all buttons
+        
+        for button in starButtons {
+            if button.tag <= tag {
+            button.setBackgroundImage(goldenStar, for: .normal)
+            } else {
+            button.setBackgroundImage(emptyStar, for: .normal)
+            }
+        }
     }
     
     var movie: Movie?
@@ -63,6 +100,8 @@ class DetailedViewController: UIViewController {
 
         
     }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

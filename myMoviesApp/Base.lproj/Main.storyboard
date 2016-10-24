@@ -23,20 +23,17 @@
                                     <frame key="frameInset" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Movie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vBi-GE-iex">
-                                            <frame key="frameInset" minX="8" width="238" height="17"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vBi-GE-iex">
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Movie Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzi-P5-0Yw">
-                                            <frame key="frameInset" minX="8" minY="19" width="123" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movie Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzi-P5-0Yw">
                                             <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="9"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="N/A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txQ-7H-A6P">
-                                            <frame key="frameInset" minX="291" minY="11" width="68" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="N/A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txQ-7H-A6P">
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -83,8 +80,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Movie Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJf-X6-GOA">
-                                <frame key="frameInset" minX="120" minY="72" width="130.5" height="32.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movie Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJf-X6-GOA">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32.5" id="P8F-si-Ifo"/>
                                 </constraints>
@@ -92,27 +88,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Movie Artist" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bVx-39-3gA">
-                                <frame key="frameInset" minX="139" minY="112" width="92" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movie Artist" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bVx-39-3gA">
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Movie Genre" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V6G-de-PSJ">
-                                <frame key="frameInset" minX="145" minY="138" width="86" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movie Genre" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V6G-de-PSJ">
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VLF-QL-AP3">
-                                <frame key="frameInset" minX="24" minY="179" width="170" height="170"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VLF-QL-AP3">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="170" id="39m-UF-IMl"/>
                                     <constraint firstAttribute="height" constant="170" id="Gbz-l3-x6j"/>
                                 </constraints>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="gna-yb-2VM">
-                                <frame key="frameInset" minX="210" minY="179" width="99" height="158"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="gna-yb-2VM">
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duration:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hvk-Fv-5Sx">
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -146,43 +138,99 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cb0-It-2lM">
-                                <frame key="frameInset" minX="128" minY="405" width="115" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cb0-It-2lM">
                                 <state key="normal" title="Add to watchlist:"/>
                                 <connections>
                                     <action selector="addToWatchlistButton:" destination="5OE-aq-m5N" eventType="touchUpInside" id="rpV-pZ-lEg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1Z-4b-OVK">
-                                <frame key="frameInset" minX="162" minY="545" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="ratingChaned:" destination="5OE-aq-m5N" eventType="touchUpInside" id="aog-u3-NC2"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="You can give a rating to a movie after you have marked it as watched" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yco-GY-hm5">
-                                <frame key="frameInset" minX="58" minY="460" width="260" height="55"/>
+                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k0k-hh-nwC">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1Z-4b-OVK">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="36" id="EA9-yd-jBJ"/>
+                                            <constraint firstAttribute="height" constant="36" id="uAZ-Cb-O8x"/>
+                                        </constraints>
+                                        <state key="normal" image="emptystar"/>
+                                        <connections>
+                                            <action selector="ratingChaned:" destination="5OE-aq-m5N" eventType="touchUpInside" id="aog-u3-NC2"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ia2-vr-5qQ">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="PpZ-rT-plW"/>
+                                            <constraint firstAttribute="width" constant="36" id="ct6-x1-EIF"/>
+                                        </constraints>
+                                        <state key="normal" image="emptystar"/>
+                                        <connections>
+                                            <action selector="ratingChaned:" destination="5OE-aq-m5N" eventType="touchUpInside" id="vg0-5x-8Jz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZG4-rf-FKH">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="36" id="Zfw-Ek-js0"/>
+                                            <constraint firstAttribute="height" constant="36" id="vMG-89-ufl"/>
+                                        </constraints>
+                                        <state key="normal" image="emptystar"/>
+                                        <connections>
+                                            <action selector="ratingChaned:" destination="5OE-aq-m5N" eventType="touchUpInside" id="ghF-2W-CnB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3T-zT-jFl">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="XyZ-BT-d1t"/>
+                                            <constraint firstAttribute="width" constant="36" id="lY4-qr-fTs"/>
+                                        </constraints>
+                                        <state key="normal" image="emptystar"/>
+                                        <connections>
+                                            <action selector="ratingChaned:" destination="5OE-aq-m5N" eventType="touchUpInside" id="9rS-rV-ncF"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wS4-X4-9NG">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="36" id="7UR-QB-IVi"/>
+                                            <constraint firstAttribute="height" constant="36" id="ba0-7h-BpH"/>
+                                        </constraints>
+                                        <state key="normal" image="emptystar"/>
+                                        <connections>
+                                            <action selector="ratingChaned:" destination="5OE-aq-m5N" eventType="touchUpInside" id="eeW-EX-S9p"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You can give a rating to a movie after you have marked it as watched" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yco-GY-hm5">
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zEi-Ii-52a">
+                                <state key="normal" title="Mark as watched"/>
+                                <state key="selected" title="Mark as unwatched"/>
+                                <connections>
+                                    <action selector="addToWatchlistButton:" destination="5OE-aq-m5N" eventType="touchUpInside" id="Vzi-eI-VrY"/>
+                                    <action selector="markedAsWatchedButton:" destination="5OE-aq-m5N" eventType="touchUpInside" id="Z6h-D8-Kva"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="VLF-QL-AP3" firstAttribute="top" secondItem="V6G-de-PSJ" secondAttribute="bottom" constant="20" id="1Bd-Oq-FAp"/>
+                            <constraint firstItem="zEi-Ii-52a" firstAttribute="top" secondItem="yco-GY-hm5" secondAttribute="bottom" constant="44" id="1NT-Gy-qVC"/>
                             <constraint firstItem="Cb0-It-2lM" firstAttribute="centerX" secondItem="K6k-to-q7V" secondAttribute="centerX" id="1iF-HB-wnx"/>
                             <constraint firstItem="XJf-X6-GOA" firstAttribute="top" secondItem="0AF-YZ-fak" secondAttribute="bottom" constant="8" id="36a-pF-tyk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yco-GY-hm5" secondAttribute="trailing" constant="41" id="4Lo-gK-RyE"/>
                             <constraint firstItem="V6G-de-PSJ" firstAttribute="top" secondItem="bVx-39-3gA" secondAttribute="bottom" constant="5" id="Arr-FN-nYC"/>
                             <constraint firstItem="gna-yb-2VM" firstAttribute="leading" secondItem="VLF-QL-AP3" secondAttribute="trailing" constant="16" id="Hrz-eF-751"/>
-                            <constraint firstItem="f1Z-4b-OVK" firstAttribute="top" secondItem="yco-GY-hm5" secondAttribute="bottom" constant="30" id="IXg-B5-Rna"/>
+                            <constraint firstItem="yco-GY-hm5" firstAttribute="leading" secondItem="K6k-to-q7V" secondAttribute="leadingMargin" constant="42" id="SKW-sd-Y1c"/>
                             <constraint firstItem="bVx-39-3gA" firstAttribute="top" secondItem="XJf-X6-GOA" secondAttribute="bottom" constant="7.5" id="Wzn-ex-4Gj"/>
-                            <constraint firstItem="yco-GY-hm5" firstAttribute="centerX" secondItem="K6k-to-q7V" secondAttribute="centerX" id="XwY-FO-Y4z"/>
                             <constraint firstItem="Cb0-It-2lM" firstAttribute="top" secondItem="VLF-QL-AP3" secondAttribute="bottom" constant="56" id="Y0z-gr-xc0"/>
                             <constraint firstItem="V6G-de-PSJ" firstAttribute="centerX" secondItem="K6k-to-q7V" secondAttribute="centerX" id="bpl-To-YL8"/>
-                            <constraint firstItem="f1Z-4b-OVK" firstAttribute="centerX" secondItem="K6k-to-q7V" secondAttribute="centerX" id="da1-lf-jh8"/>
-                            <constraint firstItem="yco-GY-hm5" firstAttribute="top" secondItem="Cb0-It-2lM" secondAttribute="bottom" constant="25" id="eh5-iC-EXV"/>
+                            <constraint firstItem="k0k-hh-nwC" firstAttribute="centerX" secondItem="K6k-to-q7V" secondAttribute="centerX" id="e8B-yV-whn"/>
+                            <constraint firstItem="yco-GY-hm5" firstAttribute="top" secondItem="Cb0-It-2lM" secondAttribute="bottom" constant="25" id="nFV-3h-l8g"/>
                             <constraint firstItem="VLF-QL-AP3" firstAttribute="leading" secondItem="K6k-to-q7V" secondAttribute="leadingMargin" constant="8" id="ol4-S6-eF8"/>
                             <constraint firstItem="XJf-X6-GOA" firstAttribute="centerX" secondItem="K6k-to-q7V" secondAttribute="centerX" id="sFF-Rc-WJX"/>
+                            <constraint firstItem="zEi-Ii-52a" firstAttribute="centerX" secondItem="K6k-to-q7V" secondAttribute="centerX" id="wb9-QQ-m7R"/>
+                            <constraint firstItem="k0k-hh-nwC" firstAttribute="top" secondItem="Cb0-It-2lM" secondAttribute="bottom" constant="34" id="wm5-tI-3pr"/>
                             <constraint firstItem="bVx-39-3gA" firstAttribute="centerX" secondItem="K6k-to-q7V" secondAttribute="centerX" id="xjC-Ef-nE6"/>
                             <constraint firstItem="gna-yb-2VM" firstAttribute="top" secondItem="V6G-de-PSJ" secondAttribute="bottom" constant="20" id="zJh-QI-QlT"/>
                         </constraints>
@@ -191,6 +239,7 @@
                         <outlet property="durationOfMovie" destination="CPZ-nE-F7L" id="Cfe-7b-wju"/>
                         <outlet property="durationStaticTitle" destination="hvk-Fv-5Sx" id="wv8-As-9NC"/>
                         <outlet property="imageOfMovie" destination="VLF-QL-AP3" id="b7t-p8-yNv"/>
+                        <outlet property="markedAsWatchedLabel" destination="zEi-Ii-52a" id="REP-BK-iGG"/>
                         <outlet property="movieArtist" destination="bVx-39-3gA" id="VVX-c5-cIv"/>
                         <outlet property="movieGenre" destination="V6G-de-PSJ" id="eQA-Dd-Mf5"/>
                         <outlet property="movieTitle" destination="XJf-X6-GOA" id="PyU-3p-HGd"/>
@@ -199,6 +248,11 @@
                         <outlet property="ratingStaticDescription" destination="yco-GY-hm5" id="dr6-w2-TdQ"/>
                         <outlet property="releaseOfMovie" destination="lLv-NS-ANr" id="5is-5v-vWp"/>
                         <outlet property="releasedStaticTitle" destination="rfH-OB-X5B" id="z2i-Ot-j0y"/>
+                        <outletCollection property="starButtons" destination="f1Z-4b-OVK" collectionClass="NSMutableArray" id="8b9-3J-M83"/>
+                        <outletCollection property="starButtons" destination="Ia2-vr-5qQ" collectionClass="NSMutableArray" id="g32-E9-wOb"/>
+                        <outletCollection property="starButtons" destination="ZG4-rf-FKH" collectionClass="NSMutableArray" id="Bqw-CE-4L6"/>
+                        <outletCollection property="starButtons" destination="N3T-zT-jFl" collectionClass="NSMutableArray" id="lQT-sf-PTY"/>
+                        <outletCollection property="starButtons" destination="wS4-X4-9NG" collectionClass="NSMutableArray" id="lGH-ry-rLX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K6t-Ze-6Gj" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -224,4 +278,7 @@
             <point key="canvasLocation" x="-242.40000000000001" y="0.44977511244377816"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="emptystar" width="128" height="128"/>
+    </resources>
 </document>

@@ -54,6 +54,7 @@ class MoviesTableViewController: UITableViewController, iTunesMovieAPIDelegate {
         
         
         
+        
 
         return cell
     }
@@ -68,9 +69,10 @@ class MoviesTableViewController: UITableViewController, iTunesMovieAPIDelegate {
             if let destinationVC = segue.destination as? DetailedViewController {
                 
                 destinationVC.movie = myItunes.moviesArray[indexPathOfCell!.row]
+                
             }
             
-            }
+        }
         
         
         
