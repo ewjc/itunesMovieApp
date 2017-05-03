@@ -10,43 +10,61 @@ import UIKit
 
 class DetailedViewController: UIViewController {
     
-    @IBOutlet var starButtons: [UIButton]!
     
+    var addToList = true
+    var markWatched = true
+    var movie: Movie?
+    
+    
+    
+    
+    // MARK: - IBOutlets
+    
+    @IBOutlet var starButtons: [UIButton]!
+    @IBOutlet weak var starsStackView: UIStackView!
     @IBOutlet weak var movieTitle: UILabel!
     @IBOutlet weak var movieArtist: UILabel!
     @IBOutlet weak var movieGenre: UILabel!
     @IBOutlet weak var durationStaticTitle: UILabel!
-    
     @IBOutlet weak var durationOfMovie: UILabel!
     @IBOutlet weak var priceStaticTitle: UILabel!
     @IBOutlet weak var priceOfMovie: UILabel!
     @IBOutlet weak var releasedStaticTitle: UILabel!
     @IBOutlet weak var releaseOfMovie: UILabel!
     @IBOutlet weak var imageOfMovie: UIImageView!
-    
     @IBOutlet weak var ratingStaticDescription: UILabel!
+    @IBOutlet weak var markedAsWatchedLabel: UIButton!
+    
+   
+    
+    
+    
+    // MARK: - IBActions
     
     @IBAction func addToWatchlistButton(_ sender: AnyObject) {
-    }
-    
-    @IBOutlet weak var markedAsWatchedLabel: UIButton!
-
-    @IBAction func markedAsWatchedButton(_ sender: UIButton) {
-        var ratingDescription = ratingStaticDescription
-        var stars = starButtons
+        addToList = !addToList
         
-        if markedAsWatchedLabel.isSelected {
-            ratingDescription?.isHidden = true
+        if addToList {
+            sender.setTitle("Add to Watchlist", for: .normal)
+        } else {
+            sender.setTitle("Unadd to Watchlist", for: .normal)
         }
-
-        
-
-        
-
-        
-        
     }
     
+    
+    @IBAction func markedAsWatchedButton(_ sender: UIButton) {
+        markWatched = !markWatched
+        
+        if markWatched {
+            sender.setTitle("Mark as Watched", for: .normal)
+            ratingStaticDescription.isHidden = false
+            starsStackView.isHidden = true
+        } else {
+            sender.setTitle("Mark as Unwatched", for: .normal)
+            ratingStaticDescription.isHidden = true
+            starsStackView.isHidden = false
+        }
+    }
     
     @IBAction func ratingChaned(_ sender: UIButton) {
         print("clickable")
@@ -59,15 +77,25 @@ class DetailedViewController: UIViewController {
         
         for button in starButtons {
             if button.tag <= tag {
-            button.setBackgroundImage(goldenStar, for: .normal)
+                button.setBackgroundImage(goldenStar, for: .normal)
             } else {
-            button.setBackgroundImage(emptyStar, for: .normal)
+                button.setBackgroundImage(emptyStar, for: .normal)
             }
         }
     }
     
-    var movie: Movie?
-
+    
+    
+    
+    
+    // MARK: - Helper Methods 
+    
+    
+    
+    
+    
+    // MARK: - View Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -83,7 +111,6 @@ class DetailedViewController: UIViewController {
             priceOfMovie.text? = movie.moviePrice
             durationOfMovie.text? = movie.duration
             
-            
             let urlString: String = movie.movieImage
             let session = URLSession.shared
             let url = URL(string: urlString)
@@ -93,19 +120,13 @@ class DetailedViewController: UIViewController {
                     self.imageOfMovie.image = UIImage(data: data)
                 }
             })
-            
             dataTask.resume()
-            
         }
-
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
         
     }
     
-    
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-
-    }
-
 }
