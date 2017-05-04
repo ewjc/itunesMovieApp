@@ -61,11 +61,11 @@ class MoviesTableViewController: UITableViewController, iTunesMovieAPIDelegate {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if (segue.identifier == "segueToVC") {
-            print(sender)
+//            print(sender)
             let cell = sender as! UITableViewCell
             let indexPathOfCell = tableView.indexPath(for: cell)
             
-            print(indexPathOfCell, indexPathOfCell?.row)
+//            print(indexPathOfCell, indexPathOfCell?.row)
             if let destinationVC = segue.destination as? DetailedViewController {
                 
                 destinationVC.movie = myItunes.moviesArray[indexPathOfCell!.row]

@@ -17,6 +17,16 @@ struct Movie {
     var movieReleased: String
     var moviePrice: String
     
+    init(movieTitle: String, movieArtist: String, movieGenre: String, movieImage: String, duration: String, movieReleased: String, moviePrice: String) {
+        self.movieTitle = movieTitle
+        self.movieArtist = movieArtist
+        self.movieGenre = movieGenre
+        self.movieImage = movieImage
+        self.duration = duration
+        self.movieReleased = movieReleased
+        self.moviePrice = moviePrice
+    }
+    
     
     func convertToDictionary() -> [String: String] {
         var dictionary = [String:String]()

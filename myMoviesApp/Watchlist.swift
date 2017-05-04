@@ -34,7 +34,7 @@ class Watchlist {
     
     func loadDefaults() {
         if let watchedMoviesArray = UserDefaults.standard.object(forKey: "WatchList") {
-            self.watchedMoviesArray = watchedMoviesArray as! [[Movie]]
+//            self.watchedMoviesArray = watchedMoviesArray as! [[Movie]]
             
             // self.watchedMoviesArray = watchedMoviesArray as! [[String:String]] as! [Movie]
         }
